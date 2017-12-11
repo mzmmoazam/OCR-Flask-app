@@ -61,22 +61,3 @@ def upload_file():
 app.run("0.0.0.0",5000,threaded=True,debug=True)
 
 
-#
-# <p><code>curl -i -X POST -F files=@test.png http://127.0.0.1:5000/api/ocr</code></p>
-#
-# </div>
-#       <form action = "http://localhost:5000/api/ocr" method = "POST"
-#          enctype = "multipart/form-data">
-#           <div class="form-group">
-#               <strong>Preprocess :</strong>
-#            <label>Thresh</label>
-#         <input type="radio" name="preprocess" value="thresh">
-#         <label>Blur</label>
-#         <input type="radio" name="preprocess" value="blur"><br>
-#            <label class="custom-file">
-#          <input type = "file" name = "image" class="custom-file-input" placeholder="Choose image ..." required/>
-#                 <span class="custom-file-control"></span>
-#             </label><br><br>
-#          <input type = "submit"/>
-#           </div>
-#       </form>
